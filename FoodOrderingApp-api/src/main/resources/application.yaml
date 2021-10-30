@@ -1,0 +1,22 @@
+server:
+  servlet:
+    port: 8080
+    contextPath: /api
+
+spring:
+
+  application:
+    name: FoodOrderingApp-api
+
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://ec2-3-233-55-123.compute-1.amazonaws.com:5432/d79phqf7rm0969
+    username: ihwawenrxkyofi
+    password: 07bebaff5997e66486bb04db6930b9c596e959bd111d097f686ffc267646fe6d
+
+  jpa:
+    properties:
+      hibernate:
+        temp:
+          use_jdbc_metadata_defaults: false
+    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
