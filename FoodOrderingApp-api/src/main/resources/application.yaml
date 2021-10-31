@@ -10,9 +10,9 @@ spring:
 
   datasource:
     driverClassName: org.postgresql.Driver
-    url: jdbc:postgresql://ec2-3-233-55-123.compute-1.amazonaws.com:5432/dcagjd5dkoundv
-    username: lppkeoozbrqybt
-    password: a0db7eb6924400649ae09ad669b149873f94fa68571b2198c469351d9a3a2cda
+    url: jdbc:postgresql://localhost:5432/restaurantdb
+    username: postgres
+    password: password
 
   jpa:
     properties:
